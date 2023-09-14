@@ -7,6 +7,10 @@ public class Animal {
 
     public String animalSound;
 
+    public void printAnimalName(){
+        System.out.println(name);
+    }
+
     public void printAnimalSound(){
         System.out.println(animalSound);
 
